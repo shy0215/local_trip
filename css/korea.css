@@ -37,7 +37,6 @@
     background-color: #1D1D1D;
     margin: 0;
     position: fixed;
- 
   }
   a {
     
@@ -147,9 +146,39 @@ h1 {
   }*/
 
 /*home*/
-#home {
+
+#container {
+    width: 700px;
+    min-height: 700px;
+    float: left;
+    margin: auto;
+    fill: #1d1d1d;
 
 }
-.home_container{
-    margin: auto;
+#states path {
+    fill: #2a2a2a;
+    stroke: #dddddd;
+    stroke-width: 1px;
+}
+
+#states path:hover {
+    fill: #009300;
+}
+
+#states .active {
+    fill: #00b700;
+}
+
+#states .activeDetail {
+    fill: #00b700;
+}
+
+#states path {
+    cursor: pointer;
+}
+
+#states text {
+    cursor: pointer;
+    font-size: 56px;
+    fill: #D62D1F;
 }
